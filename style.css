@@ -47,11 +47,11 @@
 }
 
 .hot-deal-container {
-    display: flex;
+ display: flex;
     align-items: center;
     justify-content: space-around;
     background-size: cover;
-    width: 1920px;
+    width: 1940px;
     height: 700px;
     background-color: rgba(229, 84, 115, 0.05);
     margin: 50px;
@@ -81,8 +81,8 @@
     height: 700px;
     background-color: white;
     background-size: cover;
-    
-    
+
+
 }
 
 .title-insta {
@@ -118,40 +118,71 @@
     font-family: Lato;
 
 }
-.title-shop{
+
+.title-shop {
     padding: 100px;
     line-height: normal;
     font-size: 40px;
     padding-top: 150px;
-    
+
 }
 
 .shop {
     display: flex;
-    justify-content:space-evenly;
-    
+    justify-content: space-evenly;
+
 }
 
 .text {
     border: none;
     width: 800px;
-height: 64px;
-padding: 10px;
-font-size: 16px;
+    height: 64px;
+    padding: 10px;
+    font-size: 16px;
 }
 
-.latest{
+.latest {
     padding: 20px;
     line-height: 30px;
     font-size: 18px;
 }
+.btn-insta {
+    width: 199px;
+    background: #E55473;
+    color: white;
+    padding: 20px;
+    border: none;
+    font-size: 20px;
+}
+/* Footer section  */
+.flower-shop-container{
+    width: 1900px;
+    height: 449px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-size: cover;
+    margin: 50px;
 
-
-.btn-insta{
-width:199px;
-background: #E55473;
-color: white;
-padding: 20px;
-border: none;
-font-size: 20px;
+}
+.flower{
+    color: #E55473;
+}
+.flower-title{
+    font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: 200px;
+padding-top: 50px;
+}
+.Footer{
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.footer{
+    font-size: 16px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.40);
+padding-top: 10px;
 }
