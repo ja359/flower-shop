@@ -34,7 +34,7 @@
     color: rgba(39, 39, 39, 0.60);
 }
 
-.btn{
+.btn {
     background: #E55473;
     color: white;
     padding: 10px;
@@ -56,18 +56,49 @@
     background-color: rgba(229, 84, 115, 0.05);
     margin: 50px;
 }
-.deal-text{
-      color: rgba(39, 39, 39, 0.60);
-      padding: 24px;
-      text-align: center;
-}
-.deal{
+
+.deal-text {
+    color: rgba(39, 39, 39, 0.60);
+    padding: 24px;
     text-align: center;
 }
-.btn-on{
+
+.deal {
+    text-align: center;
+}
+
+.btn-on {
     background: #E55473;
     color: white;
     padding: 10px;
     border: none;
     margin-left: 250px;
+}
+
+/* Instagram */
+.insta-container {
+    width: 1920px;
+    height: 4867px;
+    background-color:white;
+}
+
+.title-insta {
+    text-align: center;
+    padding: 24px;
+}
+
+.insta {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    padding: 24px;
+
+}
+
+.instagram {
+    margin: 10px;
+}
+
+.gram {
+    text-align: center;
+
 }
