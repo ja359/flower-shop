@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* first section  */
+.flower {
+    width: 300px;
+    height: 400px;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    width: 1920px;
+    height: 850px;
+    justify-content: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    background-size: cover;
+    padding: 10px;
+    margin: 50px;
+}
+
+.title {
+    width: 708px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.banner-para {
+    width: 300px;
+    height: 100px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.btn{
+    background: #E55473;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+/* Hot deal */
+.off {
+    color: #E55473;
+}
+
+.hot-deal-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    width: 1920px;
+    height: 700px;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin: 50px;
+}
+.deal-text{
+      color: rgba(39, 39, 39, 0.60);
+      padding: 24px;
+      text-align: center;
+}
+.deal{
+    text-align: center;
+}
+.btn-on{
+    background: #E55473;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-left: 250px;
+}
