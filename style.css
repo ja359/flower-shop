@@ -78,8 +78,11 @@
 /* Instagram */
 .insta-container {
     width: 1920px;
-    height: 4867px;
-    background-color:white;
+    height: 700px;
+    background-color: white;
+    background-size: cover;
+    
+    
 }
 
 .title-insta {
@@ -100,5 +103,55 @@
 
 .gram {
     text-align: center;
+    /* Shopping */
+}
 
+.shopping-container {
+    width: 1440px;
+    height: 500px;
+    text-align: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
+    background-size: cover;
+    margin: 50px;
+    font-family: Lato;
+
+}
+.title-shop{
+    padding: 100px;
+    line-height: normal;
+    font-size: 40px;
+    padding-top: 150px;
+    
+}
+
+.shop {
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.text {
+    border: none;
+    width: 800px;
+height: 64px;
+padding: 10px;
+font-size: 16px;
+}
+
+.latest{
+    padding: 20px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+
+.btn-insta{
+width:199px;
+background: #E55473;
+color: white;
+padding: 20px;
+border: none;
+font-size: 20px;
 }
