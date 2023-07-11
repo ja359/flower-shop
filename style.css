@@ -41,13 +41,65 @@
     border: none;
 }
 
+/* Bonus section  */
+.flower-container {
+    width: 1920px;
+    height: 800px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    background-size: cover;
+    margin: 50px 50px;
+}
+
+.img-flower1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    text-decoration: underline;
+}
+
+.img-flower2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+
+}
+
+.img-flower3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+}
+
+.pink {
+    
+    text-align: center;
+    font-size: 24px
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.feature-text {
+    color: rgba(39, 39, 39, 0.60);
+    padding: 10px;
+}
+
+.feature-title {}
+
 /* Hot deal */
 .off {
     color: #E55473;
 }
 
 .hot-deal-container {
- display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     background-size: cover;
@@ -146,6 +198,7 @@
     line-height: 30px;
     font-size: 18px;
 }
+
 .btn-insta {
     width: 199px;
     background: #E55473;
@@ -154,8 +207,9 @@
     border: none;
     font-size: 20px;
 }
+
 /* Footer section  */
-.flower-shop-container{
+.flower-shop-container {
     width: 1900px;
     height: 449px;
     background-color: black;
@@ -166,23 +220,27 @@
     margin: 50px;
 
 }
-.flower{
+
+.flower {
     color: #E55473;
 }
-.flower-title{
+
+.flower-title {
     font-size: 48px;
-font-style: normal;
-font-weight: 800;
-line-height: 200px;
-padding-top: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 200px;
+    padding-top: 50px;
 }
-.Footer{
+
+.Footer {
     line-height: 30px;
     padding-bottom: 10px;
 }
-.footer{
+
+.footer {
     font-size: 16px;
-font-weight: 400;
-color: rgba(255, 255, 255, 0.40);
-padding-top: 10px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.40);
+    padding-top: 10px;
 }
